@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
+    <Compile Update="LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
