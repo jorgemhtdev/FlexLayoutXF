@@ -2,12 +2,22 @@
 
 # AlignItems
 
-It is a property that helps us align the elements of a view and contains the following values for the properties
+It is a property that helps us align the elements of a view.
 
 <img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/AlignItems%20and%20JustifyContent.PNG" height="800">
 
+The AlignItems contains the following values for the properties:
 
+- Center
+- End
+- Start
+- **Stretch (By default)**
 
+By executing the application we can see how AlignItems does its job, the Center value aligns all the elements to the center of the container, End helps us to position the elements inside the container from right to left, Start does the opposite, Stretch gives the functionality to extend the whole element so that it fits the screen.
+
+If you add the following property to each FlexLayout you will see better how the elements in the container are aligned correctly:
+
+BackgroundColor="AntiqueWhite"
 
 
 ```
