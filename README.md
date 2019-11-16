@@ -4,6 +4,11 @@
 
 It is a property that helps us align the elements of a view and contains the following values for the properties
 
+<img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/AlignItems%20and%20JustifyContent.PNG" height="800">
+
+
+
+
 
 ```
         <FlexLayout Direction="Column">
