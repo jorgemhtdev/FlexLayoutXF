@@ -2,20 +2,16 @@
 
 ## AlignItems
 
-It is a property that helps us align the elements of a view.
-
-## JustifyContent
-
-Define how the elements are organized on the main axis
-
-The AlignItems contains the following values for the properties:
+It is a property that helps us align the elements of a view. The AlignItems contains the following values for the properties:
 
 - Center
 - End
 - Start
 - **Stretch (By default)**
 
-The JustifyContent contains the following values for the properties:
+## JustifyContent
+
+Define how the elements are organized on the main axis. The JustifyContent contains the following values for the properties:
 
 - **Start (By default)**
 - Center
