@@ -1,10 +1,10 @@
 # FlexLayout
 
-# AlignItems
+## AlignItems
 
 It is a property that helps us align the elements of a view.
 
-# JustifyContent
+## JustifyContent
 
 Define how the elements are organized on the main axis
 
@@ -26,7 +26,7 @@ The JustifyContent contains the following values for the properties:
 - SpaceBetween
 - SpaceEvenly
 
-## The example of AlignItems and JustifyContent
+### The example of AlignItems and JustifyContent
 
 By executing the application we can see how AlignItems does its job, the Center value aligns all the elements to the center of the container, End helps us to position the elements inside the container from right to left, Start does the opposite, Stretch gives the functionality to extend the whole element so that it fits the screen.
 
