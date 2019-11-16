@@ -8,8 +8,6 @@ It is a property that helps us align the elements of a view.
 
 Define how the elements are organized on the main axis
 
-<img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/AlignItems%20and%20JustifyContent.PNG" height="800">
-
 The AlignItems contains the following values for the properties:
 
 - Center
@@ -25,6 +23,8 @@ The JustifyContent contains the following values for the properties:
 - SpaceAround
 - SpaceBetween
 - SpaceEvenly
+
+<img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/AlignItems%20and%20JustifyContent.PNG" height="800">
 
 ### The example of AlignItems and JustifyContent
 
