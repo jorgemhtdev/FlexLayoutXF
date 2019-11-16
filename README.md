@@ -20,7 +20,6 @@ The AlignItems contains the following values for the properties:
 The JustifyContent contains the following values for the properties:
 
 - **Start (By default)**
-
 - Center
 - End
 - SpaceAround
