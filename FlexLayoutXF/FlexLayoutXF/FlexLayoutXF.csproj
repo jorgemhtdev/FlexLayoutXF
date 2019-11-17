@@ -17,6 +17,9 @@
     <Compile Update="LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
+    <Compile Update="ExamplesView.xaml.cs">
+      <DependentUpon>ExamplesView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -26,7 +29,7 @@
     <EmbeddedResource Update="FormView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RowView.xaml">
+    <EmbeddedResource Update="ExamplesView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
