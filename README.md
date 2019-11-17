@@ -7,9 +7,9 @@ To see the examples, [download](https://github.com/jorgemht/FlexLayoutXF/archive
 Possibly the most important property is direction, that property contains the following values
 
 - **Row:** Distribute the elements horizontally. From left to right. **main-axis**  **(Default value)**
-- **RowReverse:** 
+- **RowReverse:** The same as the previous one, but distributes the elements from right to left
 - **Column:** We distribute the elements inside the container in a stack form, from top to bottom. **cross-axis**
-- **ColumnReverse:** 
+- **ColumnReverse:** Same as above, but distribute the items from bottom to top.
 
 <img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/Direction.PNG" height="80">
 
@@ -85,3 +85,19 @@ BackgroundColor="AntiqueWhite"
             </FlexLayout>
         </FlexLayout>
 ```
+
+## Properties of each item
+
+Not only can we change the behavior of the Layout with its main properties, we can also adapt different options using properties of each element.
+
+### FlexLayout.Grow
+
+The FlexLayout.Grow property helps us ensure that our elements occupy the entire screen of the device and that it adjusts to the quantity of elements. This property receives values greater than 0 to indicate that the item will fit the screen size
+
+<img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/Grow.PNG" height="80">
+
+### FlexLayout.Basis
+
+One of the properties that I think is very important is FlexLayout.Basis. This property allows us to maintain a default space for a container, then the following code:
+
+<img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/Basis.PNG" height="80">
