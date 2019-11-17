@@ -1,5 +1,28 @@
 # FlexLayout
 
+To see the examples, [download](https://github.com/jorgemht/FlexLayoutXF/archive/master.zip) the repository and run it! Inside the repository you have a tab view with all the examples explained below. Also in the last tab you have some examples of how to apply it, such as a login.
+
+## Direction
+
+Possibly the most important property is direction, that property contains the following values
+
+- **Row:** Distribute the elements horizontally. From left to right. **main-axis**  **(Default value)**
+- **RowReverse:** 
+- **Column:** We distribute the elements inside the container in a stack form, from top to bottom. **cross-axis**
+- **ColumnReverse:** 
+
+<img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/Direction.PNG" height="80">
+
+## Wrap
+
+Indicate if the container adapts to be able to container all the child elements or not
+
+- **NoWrap:** All your elements in the same line.  **(Default value)**
+- **Wrap:** Elements in multiple lines from top to bottom.
+- **Reverse:** Elements in multiple lines from bottom to top.
+
+<img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/Wrap.PNG" height="400">
+
 ## AlignItems
 
 It is a property that helps us align the elements of a view. The AlignItems contains the following values for the properties:
