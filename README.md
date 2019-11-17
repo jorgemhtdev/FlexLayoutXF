@@ -18,8 +18,8 @@ Possibly the most important property is direction, that property contains the fo
 Indicate if the container adapts to be able to container all the child elements or not
 
 - **NoWrap:** All your elements in the same line.  **(Default value)**
-- **Wrap:** Elements in multiple lines from Top to Bottom.
-- **Reverse:** Elements in multiple lines from Bottom to Top.
+- **Wrap:** Elements in multiple lines from top to bottom.
+- **Reverse:** Elements in multiple lines from bottom to top.
 
 <img src="https://github.com/jorgemht/FlexLayoutXF/blob/master/Screenshots/Wrap.PNG" height="400">
 
