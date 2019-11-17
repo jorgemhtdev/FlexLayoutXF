@@ -14,7 +14,7 @@
             <Label BackgroundColor="LightPink" Text="3 Item" />
         </FlexLayout>
     </ContentPage>
-    <ContentPage Title="Wrap|NoWrap|Reverse">
+    <ContentPage Title="Wrap">
         <!--  Wrap NoWrap  Reverse  -->
         <FlexLayout Wrap="Wrap">
             <Label BackgroundColor="Chocolate" Text="1 Item" />
@@ -38,6 +38,20 @@
             <Label BackgroundColor="Chocolate" Text="1 Item" />
             <Label BackgroundColor="Khaki" Text="2 Item" />
             <Label BackgroundColor="LightPink" Text="3 Item" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Basis">
+        <FlexLayout Direction="Column">
+            <BoxView BackgroundColor="Chocolate" FlexLayout.Basis="50%" />
+            <BoxView BackgroundColor="Khaki" FlexLayout.Basis="25%" />
+            <BoxView BackgroundColor="LightPink" FlexLayout.Basis="25%" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Grow">
+        <FlexLayout Direction="Column">
+            <BoxView BackgroundColor="Chocolate" FlexLayout.Grow="2" />
+            <BoxView BackgroundColor="Khaki" FlexLayout.Grow="1" />
+            <BoxView BackgroundColor="LightPink" FlexLayout.Grow="1" />
         </FlexLayout>
     </ContentPage>
 </TabbedPage>
