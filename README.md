@@ -1,5 +1,9 @@
 # FlexLayout
 
+FlexLayout helps us to accommodate our components on our screen in different ways. It has the ability to wrap them to fit in a single row or column. This makes it very easy for us to align, design and organize the space. FlexLayout has the power to provide a better proportional size for the internal components, since it organizes the elements in a proportion based on the dimensions of the screen and between the elements of the screen. It also helps us to have a cleaner and more organized view.
+
+In summary, our view will be responsive, making it easier for our views to adapt to any device orientation and different screen sizes.
+
 To see the examples, [download](https://github.com/jorgemht/FlexLayoutXF/archive/master.zip) the repository and run it! Inside the repository you have a tab view with all the examples explained below. Also in the last tab you have some examples of how to apply it, such as a login.
 
 ## Direction
