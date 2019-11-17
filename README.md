@@ -1,8 +1,6 @@
 # FlexLayout
 
-To see the examples, download the repository and run it! Inside the repository you have a tab view with all the examples explained below. Also in the last tab you have some examples of how to apply it, such as a login.
-
-https://github.com/jorgemht/FlexLayoutXF.git
+To see the examples, [download](https://github.com/jorgemht/FlexLayoutXF/archive/master.zip) the repository and run it! Inside the repository you have a tab view with all the examples explained below. Also in the last tab you have some examples of how to apply it, such as a login.
 
 ## Direction
 
