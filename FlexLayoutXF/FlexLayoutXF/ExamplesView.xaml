@@ -54,4 +54,10 @@
             <BoxView BackgroundColor="LightPink" FlexLayout.Grow="1" />
         </FlexLayout>
     </ContentPage>
+    <ContentPage Title="Examples">
+        <FlexLayout Direction="Column">
+            <Button Clicked="Button_Login" Text="Login" />
+            <Button Clicked="Button_Form" Text="Form" />
+        </FlexLayout>
+    </ContentPage>
 </TabbedPage>

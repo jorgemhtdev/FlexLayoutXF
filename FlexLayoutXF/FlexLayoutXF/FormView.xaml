@@ -7,10 +7,88 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <ContentPage.Content>
-        <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
-            <Image Source="mono.png" />
-            <Label Text="Mono is an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime. A growing family of solutions and an active and enthusiastic contributing community is helping position Mono to become the leading choice for development of cross platform applications." />
-            <Button Text="Go to website" />
+        <FlexLayout Direction="Column">
+            <FlexLayout
+                Direction="Column"
+                FlexLayout.Grow="2"
+                JustifyContent="Center">
+                <Image
+                    Aspect="AspectFit"
+                    FlexLayout.AlignSelf="Center"
+                    HeightRequest="125"
+                    Source="xamarin"
+                    WidthRequest="125" />
+            </FlexLayout>
+            <FlexLayout
+                AlignItems="Center"
+                Direction="Row"
+                FlexLayout.Grow="1"
+                JustifyContent="SpaceAround">
+                <Button
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="Red"
+                    BorderWidth="1"
+                    CornerRadius="35"
+                    HeightRequest="40"
+                    Text="My feeds"
+                    WidthRequest="120" />
+                <Button
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="Red"
+                    BorderWidth="1"
+                    CornerRadius="35"
+                    HeightRequest="40"
+                    Text="My photos"
+                    WidthRequest="120" />
+            </FlexLayout>
+            <FlexLayout
+                AlignContent="Center"
+                Direction="Row"
+                FlexLayout.Grow="3"
+                JustifyContent="SpaceEvenly"
+                Wrap="Wrap">
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    Text="Name" />
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    HorizontalTextAlignment="End"
+                    Text="Jorgemht" />
+
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    Text="Email" />
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    HorizontalTextAlignment="End"
+                    Text="myemail@myemail.com" />
+
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    Text="Phone" />
+
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    HorizontalTextAlignment="End"
+                    Text="+34 7864743821" />
+
+            </FlexLayout>
+            <FlexLayout FlexLayout.Grow="1" JustifyContent="Center">
+                <Button
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="Red"
+                    BorderWidth="1"
+                    CornerRadius="35"
+                    HeightRequest="60"
+                    Text="Update profile"
+                    WidthRequest="160" />
+            </FlexLayout>
         </FlexLayout>
     </ContentPage.Content>
 </ContentPage>

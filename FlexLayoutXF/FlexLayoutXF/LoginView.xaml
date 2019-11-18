@@ -6,7 +6,7 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
+    <FlexLayout Direction="Column" JustifyContent="SpaceAround">
         <Image
             Aspect="AspectFit"
             FlexLayout.AlignSelf="Center"

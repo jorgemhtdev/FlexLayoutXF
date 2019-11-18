@@ -10,5 +10,14 @@
         {
             InitializeComponent();
         }
+
+        private void Button_Login(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new LoginView());
+        }
+        private void Button_Form(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new FormView());
+        }
     }
 }

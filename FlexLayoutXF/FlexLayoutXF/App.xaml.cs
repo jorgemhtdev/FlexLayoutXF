@@ -10,7 +10,7 @@ namespace FlexLayoutXF
         {
             InitializeComponent();
 
-            MainPage = new ExamplesView();
+            MainPage = new NavigationPage(new ExamplesView());
         }
 
         protected override void OnStart()
