@@ -50,8 +50,8 @@
     </ContentPage>
     <ContentPage Title="Grow">
         <FlexLayout Direction="Column">
-            <BoxView BackgroundColor="Chocolate" FlexLayout.Grow="2" />
-            <BoxView BackgroundColor="Khaki" FlexLayout.Grow="1" />
+            <BoxView BackgroundColor="Chocolate" FlexLayout.Grow="1" />
+            <BoxView BackgroundColor="Khaki" FlexLayout.Grow="2" />
             <BoxView BackgroundColor="LightPink" FlexLayout.Grow="1" />
         </FlexLayout>
     </ContentPage>
