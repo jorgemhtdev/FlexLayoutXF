@@ -19,5 +19,10 @@
         {
             Navigation.PushAsync(new FormView());
         }
+
+        private void Button_Properties(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new PropertiesView());
+        }
     }
 }

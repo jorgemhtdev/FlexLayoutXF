@@ -20,7 +20,6 @@
                     WidthRequest="125" />
             </FlexLayout>
             <FlexLayout
-                AlignItems="Center"
                 Direction="Row"
                 FlexLayout.Grow="1"
                 JustifyContent="SpaceAround">
@@ -42,7 +41,6 @@
                     WidthRequest="120" />
             </FlexLayout>
             <FlexLayout
-                AlignContent="Center"
                 Direction="Row"
                 FlexLayout.Grow="3"
                 JustifyContent="SpaceEvenly"

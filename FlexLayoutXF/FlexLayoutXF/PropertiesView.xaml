@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="FlexLayoutXF.PropertiesView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FlexLayoutStyle" TargetType="FlexLayout">
+                <Setter Property="Direction" Value="Row" />
+                <Setter Property="Wrap" Value="Wrap" />
+                <Setter Property="AlignItems" Value="Stretch" />
+                <Setter Property="AlignContent" Value="Center" />
+            </Style>
+            <Style TargetType="Grid">
+                <Setter Property="HeightRequest" Value="100" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <FlexLayout Style="{StaticResource FlexLayoutStyle}">
+            <Grid
+                BackgroundColor="Red"
+                FlexLayout.Basis="20%"
+                FlexLayout.Grow="0">
+                <Label Text="20%" />
+            </Grid>
+            <Grid
+                BackgroundColor="DarkViolet"
+                FlexLayout.Basis="25%"
+                FlexLayout.Grow="0">
+                <Label Text="25%" />
+            </Grid>
+            <Grid
+                BackgroundColor="Red"
+                FlexLayout.Basis="20%"
+                FlexLayout.Grow="0">
+                <Label Text="20%" />
+            </Grid>
+            <Grid
+                BackgroundColor="DarkViolet"
+                FlexLayout.Basis="25%"
+                FlexLayout.Grow="0">
+                <Label Text="25%" />
+            </Grid>
+            <Grid BackgroundColor="Green" FlexLayout.Grow="1">
+                <Label Text="Auto" />
+            </Grid>
+
+            <Grid BackgroundColor="Green" FlexLayout.Grow="1">
+                <Label Text="Grow 1" />
+            </Grid>
+            <Grid BackgroundColor="Aquamarine" FlexLayout.Grow="2">
+                <Label Text="Grow 2" />
+            </Grid>
+            <Grid BackgroundColor="Brown" FlexLayout.Grow="1">
+                <Label Text="Grow 1" />
+            </Grid>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

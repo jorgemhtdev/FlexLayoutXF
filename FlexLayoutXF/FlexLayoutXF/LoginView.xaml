@@ -6,18 +6,20 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <FlexLayout Direction="Column" JustifyContent="SpaceAround">
+    <FlexLayout
+        AlignItems="Center"
+        Direction="Column"
+        JustifyContent="SpaceEvenly">
         <Image
             Aspect="AspectFit"
-            FlexLayout.AlignSelf="Center"
             HeightRequest="125"
             Source="xamarin"
             WidthRequest="125" />
-        <StackLayout FlexLayout.AlignSelf="Center" WidthRequest="280">
+        <StackLayout WidthRequest="280">
             <Entry Placeholder="Email" />
             <Entry IsPassword="True" Placeholder="Password" />
         </StackLayout>
-        <Grid FlexLayout.AlignSelf="Center">
+        <Grid>
             <Button
                 BackgroundColor="Blue"
                 CornerRadius="20"

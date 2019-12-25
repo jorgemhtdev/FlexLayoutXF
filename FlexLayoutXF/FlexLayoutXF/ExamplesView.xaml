@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    NavigationPage.HasNavigationBar="false"
     mc:Ignorable="d">
     <ContentPage Title="Direction">
         <!--  Row Column ColumnReverse RowReverse  -->
@@ -58,6 +59,7 @@
         <FlexLayout Direction="Column">
             <Button Clicked="Button_Login" Text="Login" />
             <Button Clicked="Button_Form" Text="Form" />
+            <Button Clicked="Button_Properties" Text="Properties" />
         </FlexLayout>
     </ContentPage>
 </TabbedPage>
