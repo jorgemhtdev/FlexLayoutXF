@@ -10,56 +10,249 @@
     <ContentPage Title="Direction">
         <!--  Row Column ColumnReverse RowReverse  -->
         <FlexLayout Direction="Row">
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
         </FlexLayout>
     </ContentPage>
     <ContentPage Title="Wrap">
         <!--  Wrap NoWrap  Reverse  -->
         <FlexLayout Wrap="Wrap">
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
-            <Label BackgroundColor="Chocolate" Text="1 Item" />
-            <Label BackgroundColor="Khaki" Text="2 Item" />
-            <Label BackgroundColor="LightPink" Text="3 Item" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
         </FlexLayout>
     </ContentPage>
     <ContentPage Title="Basis">
         <FlexLayout Direction="Column">
-            <BoxView BackgroundColor="Chocolate" FlexLayout.Basis="50%" />
-            <BoxView BackgroundColor="Khaki" FlexLayout.Basis="25%" />
-            <BoxView BackgroundColor="LightPink" FlexLayout.Basis="25%" />
+            <BoxView BackgroundColor="Navy" FlexLayout.Basis="30%" />
+            <BoxView BackgroundColor="Yellow" FlexLayout.Basis="20%" />
+            <BoxView BackgroundColor="Navy" FlexLayout.Basis="20%" />
+            <BoxView BackgroundColor="Yellow" FlexLayout.Basis="30%" />
         </FlexLayout>
     </ContentPage>
     <ContentPage Title="Grow">
         <FlexLayout Direction="Column">
-            <BoxView BackgroundColor="Chocolate" FlexLayout.Grow="1" />
-            <BoxView BackgroundColor="Khaki" FlexLayout.Grow="2" />
-            <BoxView BackgroundColor="LightPink" FlexLayout.Grow="1" />
+            <BoxView BackgroundColor="Navy" FlexLayout.Grow="1" />
+            <BoxView BackgroundColor="Yellow" FlexLayout.Grow="2" />
+            <BoxView BackgroundColor="Navy" FlexLayout.Grow="1" />
         </FlexLayout>
     </ContentPage>
     <ContentPage Title="Examples">
         <FlexLayout Direction="Column">
             <Button Clicked="Button_Login" Text="Login" />
             <Button Clicked="Button_Form" Text="Form" />
-            <Button Clicked="Button_Properties" Text="Properties" />
+            <Button Clicked="Button_AlignContent" Text="Align Content" />
         </FlexLayout>
     </ContentPage>
 </TabbedPage>

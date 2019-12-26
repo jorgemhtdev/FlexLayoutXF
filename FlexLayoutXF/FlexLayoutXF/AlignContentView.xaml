@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="FlexLayoutXF.PropertiesView"
+    x:Class="FlexLayoutXF.AlignContentView"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -9,10 +9,8 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="FlexLayoutStyle" TargetType="FlexLayout">
-                <Setter Property="Direction" Value="Row" />
                 <Setter Property="Wrap" Value="Wrap" />
-                <Setter Property="AlignItems" Value="Stretch" />
-                <Setter Property="AlignContent" Value="Center" />
+                <Setter Property="AlignContent" Value="Start" />
             </Style>
             <Style TargetType="Grid">
                 <Setter Property="HeightRequest" Value="100" />

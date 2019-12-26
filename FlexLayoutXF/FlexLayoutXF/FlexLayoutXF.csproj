@@ -20,8 +20,8 @@
     <Compile Update="ExamplesView.xaml.cs">
       <DependentUpon>ExamplesView.xaml</DependentUpon>
     </Compile>
-    <Compile Update="PropertiesView.xaml.cs">
-      <DependentUpon>PropertiesView.xaml</DependentUpon>
+    <Compile Update="AlignContentView.xaml.cs">
+      <DependentUpon>AlignContentView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -32,7 +32,7 @@
     <EmbeddedResource Update="ExamplesView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PropertiesView.xaml">
+    <EmbeddedResource Update="AlignContentView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -20,9 +20,9 @@
             Navigation.PushAsync(new FormView());
         }
 
-        private void Button_Properties(object sender, System.EventArgs e)
+        private void Button_AlignContent(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new PropertiesView());
+            Navigation.PushAsync(new AlignContentView());
         }
     }
 }

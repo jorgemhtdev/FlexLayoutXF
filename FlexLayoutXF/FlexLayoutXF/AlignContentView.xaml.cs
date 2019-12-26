@@ -4,9 +4,9 @@
     using Xamarin.Forms.Xaml;
 
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PropertiesView : ContentPage
+    public partial class AlignContentView : ContentPage
     {
-        public PropertiesView()
+        public AlignContentView()
         {
             InitializeComponent();
         }
