@@ -20,6 +20,11 @@
             Navigation.PushAsync(new FormView());
         }
 
+        private void Button_School(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SchoolView());
+        }
+
         private void Button_AlignContent(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new AlignContentView());

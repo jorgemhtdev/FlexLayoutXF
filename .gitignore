@@ -328,3 +328,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/FlexLayoutXF/FlexLayoutXF/TestView.xaml
+/FlexLayoutXF/FlexLayoutXF/TestView.xaml.cs

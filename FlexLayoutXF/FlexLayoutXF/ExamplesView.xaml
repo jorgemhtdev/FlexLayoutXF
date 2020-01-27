@@ -251,6 +251,7 @@
     <ContentPage Title="Examples">
         <FlexLayout Direction="Column">
             <Button Clicked="Button_Login" Text="Login" />
+            <Button Clicked="Button_School" Text="School" />
             <Button Clicked="Button_Form" Text="Form" />
             <Button Clicked="Button_AlignContent" Text="Align Content" />
         </FlexLayout>
