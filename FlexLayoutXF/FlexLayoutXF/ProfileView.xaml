@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="FlexLayoutXF.ProfileView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    mc:Ignorable="d">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FlexLayoutStyle" TargetType="FlexLayout">
+                <Setter Property="Direction" Value="Row" />
+                <Setter Property="FlexLayout.Grow" Value="1" />
+                <Setter Property="JustifyContent" Value="Center" />
+                <Setter Property="JustifyContent" Value="Center" />
+
+                <Setter Property="Wrap" Value="Wrap" />
+            </Style>
+            <Style x:Key="ImageStyle" TargetType="Image">
+                <Setter Property="Aspect" Value="AspectFit" />
+                <Setter Property="WidthRequest" Value="95" />
+                <Setter Property="HeightRequest" Value="95" />
+            </Style>
+            <Style x:Key="PancakeViewStyle" TargetType="yummy:PancakeView">
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="Elevation" Value="4" />
+                <Setter Property="FlexLayout.Basis" Value="45%" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="HeightRequest" Value="60" />
+            </Style>
+
+            <Style x:Key="FlexLayoutFrameStyle" TargetType="FlexLayout">
+                <Setter Property="Direction" Value="Column" />
+                <Setter Property="Wrap" Value="Wrap" />
+                <Setter Property="AlignContent" Value="Start" />
+                <Setter Property="JustifyContent" Value="Center" />
+            </Style>
+
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontSize" Value="Small" />
+            </Style>
+            <Style x:Key="SecondLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="Micro" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <FlexLayout Direction="Column">
+            <FlexLayout
+                AlignItems="Center"
+                Direction="Column"
+                FlexLayout.Grow="1"
+                JustifyContent="SpaceEvenly">
+                <Grid FlexLayout.Basis="50%">
+                    <Image Aspect="AspectFit" Source="UserSchool" />
+                </Grid>
+
+                <Label FlexLayout.Basis="10%" Text="Mario Molina" />
+                <Label FlexLayout.Basis="10%" Text="Nombre de usuario" />
+
+                <FlexLayout
+                    AlignContent="Center"
+                    Direction="Row"
+                    FlexLayout.Basis="30%"
+                    JustifyContent="Center"
+                    Wrap="Wrap">
+                    <Label
+                        FlexLayout.Basis="40%"
+                        HeightRequest="20"
+                        HorizontalTextAlignment="Center"
+                        Text="187"
+                        VerticalTextAlignment="Center" />
+                    <Label
+                        FlexLayout.Basis="40%"
+                        HeightRequest="20"
+                        HorizontalTextAlignment="Center"
+                        Text="1.30k"
+                        VerticalTextAlignment="Center" />
+                    <Label
+                        FlexLayout.Basis="40%"
+                        HeightRequest="20"
+                        HorizontalTextAlignment="Center"
+                        Text="Seguidores"
+                        VerticalTextAlignment="Center" />
+                    <Label
+                        FlexLayout.Basis="40%"
+                        HeightRequest="20"
+                        HorizontalTextAlignment="Center"
+                        Text="Seguidos"
+                        VerticalTextAlignment="Center" />
+                </FlexLayout>
+            </FlexLayout>
+            <FlexLayout Style="{StaticResource FlexLayoutStyle}">
+                <yummy:PancakeView Style="{StaticResource PancakeViewStyle}">
+                    <FlexLayout Style="{StaticResource FlexLayoutFrameStyle}">
+                        <Image
+                            FlexLayout.Basis="90%"
+                            Source="Example1"
+                            Style="{StaticResource ImageStyle}"
+                            WidthRequest="55" />
+                        <Label
+                            FlexLayout.Basis="30%"
+                            Style="{StaticResource LabelStyle}"
+                            Text="25"
+                            WidthRequest="60" />
+                        <Label
+                            FlexLayout.Basis="25%"
+                            Style="{StaticResource SecondLabelStyle}"
+                            Text="Lorem"
+                            WidthRequest="60" />
+                    </FlexLayout>
+                </yummy:PancakeView>
+
+                <yummy:PancakeView Style="{StaticResource PancakeViewStyle}">
+                    <FlexLayout Style="{StaticResource FlexLayoutFrameStyle}">
+                        <Image
+                            FlexLayout.Basis="90%"
+                            Source="Example2"
+                            Style="{StaticResource ImageStyle}"
+                            WidthRequest="55" />
+                        <Label
+                            FlexLayout.Basis="30%"
+                            Style="{StaticResource LabelStyle}"
+                            Text="25"
+                            WidthRequest="60" />
+                        <Label
+                            FlexLayout.Basis="25%"
+                            Style="{StaticResource SecondLabelStyle}"
+                            Text="Lorem"
+                            WidthRequest="60" />
+                    </FlexLayout>
+                </yummy:PancakeView>
+
+                <yummy:PancakeView Style="{StaticResource PancakeViewStyle}">
+                    <FlexLayout Style="{StaticResource FlexLayoutFrameStyle}">
+                        <Image
+                            FlexLayout.Basis="90%"
+                            Source="Example3"
+                            Style="{StaticResource ImageStyle}"
+                            WidthRequest="55" />
+                        <Label
+                            FlexLayout.Basis="30%"
+                            Style="{StaticResource LabelStyle}"
+                            Text="25"
+                            WidthRequest="60" />
+                        <Label
+                            FlexLayout.Basis="25%"
+                            Style="{StaticResource SecondLabelStyle}"
+                            Text="Lorem"
+                            WidthRequest="60" />
+                    </FlexLayout>
+                </yummy:PancakeView>
+
+                <yummy:PancakeView Style="{StaticResource PancakeViewStyle}">
+                    <FlexLayout Style="{StaticResource FlexLayoutFrameStyle}">
+                        <Image
+                            FlexLayout.Basis="90%"
+                            Source="Example4"
+                            Style="{StaticResource ImageStyle}"
+                            WidthRequest="55" />
+                        <Label
+                            FlexLayout.Basis="30%"
+                            Style="{StaticResource LabelStyle}"
+                            Text="25"
+                            WidthRequest="60" />
+                        <Label
+                            FlexLayout.Basis="25%"
+                            Style="{StaticResource SecondLabelStyle}"
+                            Text="Lorem"
+                            WidthRequest="60" />
+                    </FlexLayout>
+                </yummy:PancakeView>
+
+                <yummy:PancakeView Style="{StaticResource PancakeViewStyle}">
+                    <FlexLayout Style="{StaticResource FlexLayoutFrameStyle}">
+                        <Image
+                            FlexLayout.Basis="90%"
+                            Source="Example5"
+                            Style="{StaticResource ImageStyle}"
+                            WidthRequest="55" />
+                        <Label
+                            FlexLayout.Basis="30%"
+                            Style="{StaticResource LabelStyle}"
+                            Text="25"
+                            WidthRequest="60" />
+                        <Label
+                            FlexLayout.Basis="25%"
+                            Style="{StaticResource SecondLabelStyle}"
+                            Text="Lorem"
+                            WidthRequest="60" />
+                    </FlexLayout>
+                </yummy:PancakeView>
+
+                <yummy:PancakeView Style="{StaticResource PancakeViewStyle}">
+                    <FlexLayout Style="{StaticResource FlexLayoutFrameStyle}">
+                        <Image
+                            FlexLayout.Basis="90%"
+                            Source="Example6"
+                            Style="{StaticResource ImageStyle}"
+                            WidthRequest="55" />
+                        <Label
+                            FlexLayout.Basis="30%"
+                            Style="{StaticResource LabelStyle}"
+                            Text="25"
+                            WidthRequest="60" />
+                        <Label
+                            FlexLayout.Basis="25%"
+                            Style="{StaticResource SecondLabelStyle}"
+                            Text="Lorem"
+                            WidthRequest="60" />
+                    </FlexLayout>
+                </yummy:PancakeView>
+            </FlexLayout>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,7 +8,8 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ExamplesView());
+            MainPage = new NavigationPage(new ProfileView());
+            //MainPage = new ProfileView();
         }
 
         protected override void OnStart()
