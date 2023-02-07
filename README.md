@@ -23,7 +23,7 @@ Possibly the most important property is direction, that property contains the fo
 <Label BackgroundColor="Khaki" Text="2 Item" /> 
 <Label BackgroundColor="LightPink" Text="3 Item" />
 ```
-
+ 
 ## Wrap
 
 Indicate if the container adapts to be able to container all the child elements or not
